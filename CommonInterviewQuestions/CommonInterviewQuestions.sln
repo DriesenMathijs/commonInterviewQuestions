@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{A8162FE9-32EC-47BD-BDA6-2E022F360A0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Palindrome", "Palindrome", "{FA7FD2C8-122E-4DFD-AEBE-DCB9A4CD6729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "..\..\InterviewQuestions\Fibonacci\Fibonacci\Fibonacci.csproj", "{A229943D-DAE8-4007-9E16-11CAC18B336A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Tests", "..\..\InterviewQuestions\Fibonacci\Fibonacci.Tests\Fibonacci.Tests.csproj", "{267F8527-0113-4DAB-ACCD-FD26C036D93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "..\..\InterviewQuestions\Fibonacci\Palindrome\Palindrome.csproj", "{CD69B681-C649-4EB3-8632-860C49FDBA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome.Tests", "..\..\InterviewQuestions\Fibonacci\Palindrome.Tests\Palindrome.Tests.csproj", "{E782D220-CADA-4BA7-BD3A-3B1394E4C472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A229943D-DAE8-4007-9E16-11CAC18B336A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A229943D-DAE8-4007-9E16-11CAC18B336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A229943D-DAE8-4007-9E16-11CAC18B336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A229943D-DAE8-4007-9E16-11CAC18B336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267F8527-0113-4DAB-ACCD-FD26C036D93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267F8527-0113-4DAB-ACCD-FD26C036D93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267F8527-0113-4DAB-ACCD-FD26C036D93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267F8527-0113-4DAB-ACCD-FD26C036D93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD69B681-C649-4EB3-8632-860C49FDBA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD69B681-C649-4EB3-8632-860C49FDBA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD69B681-C649-4EB3-8632-860C49FDBA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD69B681-C649-4EB3-8632-860C49FDBA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E782D220-CADA-4BA7-BD3A-3B1394E4C472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E782D220-CADA-4BA7-BD3A-3B1394E4C472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E782D220-CADA-4BA7-BD3A-3B1394E4C472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E782D220-CADA-4BA7-BD3A-3B1394E4C472}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A229943D-DAE8-4007-9E16-11CAC18B336A} = {A8162FE9-32EC-47BD-BDA6-2E022F360A0C}
+		{267F8527-0113-4DAB-ACCD-FD26C036D93D} = {A8162FE9-32EC-47BD-BDA6-2E022F360A0C}
+		{CD69B681-C649-4EB3-8632-860C49FDBA06} = {FA7FD2C8-122E-4DFD-AEBE-DCB9A4CD6729}
+		{E782D220-CADA-4BA7-BD3A-3B1394E4C472} = {FA7FD2C8-122E-4DFD-AEBE-DCB9A4CD6729}
+	EndGlobalSection
+EndGlobal
