@@ -23,5 +23,5 @@ function fizzbuzz(num) {
 
   conditions.forEach(condition => result += num % condition.value === 0 ? condition.result : '');
 
-  return result;
+  return result || num.toString();
 }

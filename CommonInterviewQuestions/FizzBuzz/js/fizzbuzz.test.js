@@ -44,4 +44,12 @@ describe('fizzbuzz', function () {
     expect(second).toBe('fizzbuzz');
     expect(third).toBe('fizzbuzz');
   });
+
+  it('should return the number as string if not divisible by three or five', function () {
+    let [first, second, third] = [fizzbuzz(4), fizzbuzz(8), fizzbuzz(22)];
+
+    expect(first).toBe('4');
+    expect(second).toBe('8');
+    expect(third).toBe('22');
+  })
 });
